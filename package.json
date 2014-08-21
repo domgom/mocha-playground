@@ -1,0 +1,28 @@
+{
+  "name": "mocha-playground",
+  "version": "0.0.1",
+  "description": "Testing mocha capabilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+	"coverage": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- -R spec"
+	
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://domgom@github.com/domgom/mocha-playground.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Domingo Gomez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/domgom/mocha-playground/issues"
+  },
+  "homepage": "https://github.com/domgom/mocha-playground",
+  "devDependencies": {
+    "mocha": "~1.21.4",
+    "istanbul": "~0.3.0"
+  }
+}
